@@ -1,0 +1,13 @@
+.place__paragraphs {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 26px;
+    grid-area: paragraphs;
+  }
+  
+  @media (max-width: 768px) {
+    .place__paragraphs {
+      align-items: center;
+      order: 2;
+    }
+  }

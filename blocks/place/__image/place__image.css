@@ -1,0 +1,12 @@
+.place__image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    grid-area: image;
+  }
+  
+  @media (max-width: 768px) {
+    .place__image {
+      align-self: center;
+      order: 1;
+    }
+  }

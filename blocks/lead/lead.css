@@ -1,0 +1,7 @@
+.lead {
+    font-family: "Inter", Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }

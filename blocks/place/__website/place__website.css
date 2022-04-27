@@ -1,0 +1,14 @@
+.place__website {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+    grid-area: url;
+    align-self: end;
+  }
+  
+  @media (max-width: 768px) {
+    .place__website {
+      width: 90%;
+      align-self: center;
+    }
+  }

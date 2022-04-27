@@ -1,0 +1,37 @@
+.place {
+    font-family: "Inter", Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content min-content;
+    gap: 48px 40px;
+    max-width: 76.875%;
+    margin: 0 auto;
+    align-items: start;
+    grid-template-areas: 
+    "title url"
+    "image paragraphs";
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .place {
+      gap: 48px 32px;
+      max-width: 90.625%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .place {
+      gap: 48px 28px;
+      max-width: 93.75%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .place {
+      max-width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      gap: 32px;
+    }
+  }
