@@ -1,18 +1,18 @@
 .photo-grid {
     font-family: "Inter", Arial, sans-serif;
-    width: 92.5%;
+    max-width: 92.5%;
     margin: 0 auto;
   }
 
 @media (max-width: 1024px) {
   .photo-grid{
-    width: 90.625%;
+    max-width: 928px;
   } 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .photo-grid {
-    width: 93.75%;
+    max-width: 720px;
   }
 }
 
