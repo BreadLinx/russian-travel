@@ -5,9 +5,15 @@
     grid-area: paragraphs;
   }
   
-  @media (max-width: 768px) {
-    .place__paragraphs {
-      align-items: center;
-      order: 2;
-    }
+@media (max-width: 768px) {
+  .place__paragraphs {
+    gap: 25px;
   }
+}
+
+@media (max-width: 320px) {
+  .place__paragraphs {
+    width: 90%;
+    order: 2;
+  }
+}

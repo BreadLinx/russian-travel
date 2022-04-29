@@ -1,14 +1,14 @@
 .footer__link {
-    font-weight: 400;
-    line-height: 18px;
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    line-height: 24px;
+    font-size: 24px;
   }
-  
-  @media (max-width: 768px) {
-    .footer__link {
-      font-size: 24px;
-      line-height: 24px;
-    }
-  }
+}

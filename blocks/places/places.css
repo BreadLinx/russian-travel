@@ -6,15 +6,18 @@
     margin: 92px 0;
   }
   
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .places {
-      gap: 73px;
-    }
+@media (max-width: 1024px)  {
+  .places {
+    margin-top: 88px;
+    margin-bottom: 88px;
+    gap: 73px;
   }
-  
-  @media (max-width: 768px) {
-    .places {
-      gap: 50px;
-      margin: 65px 0;
-    }
+}
+
+@media (max-width: 320px) {
+  .places {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap: 50px;
   }
+}

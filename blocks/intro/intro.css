@@ -6,16 +6,24 @@
     margin: 92px auto;
   }
   
-  @media (max-width: 1280px) {
-    .intro {
-      width: 90.625%;
-      margin: 88px auto;
-    }
+@media (max-width: 1024px) {
+  .intro {
+    width: 90.625%;
   }
-  
+}
+
   @media (max-width: 768px) {
     .intro {
-      width: 91%;
-      margin: 64px auto;
+      width: 93.75%;
+      margin-top: 88px;
+      margin-bottom: 88px;
     }
   }
+
+@media (max-width: 320px) {
+  .intro {
+    width: 90%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}

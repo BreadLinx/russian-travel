@@ -6,9 +6,9 @@
     line-height: 28px;
   }
 
-@media (max-width: 768px) {
-  .header__lang-link {
-    line-height: 20px;
-    font-size: 18px;
+  @media (max-width: 320px) {
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 20px;
     }
-  }
+  } 

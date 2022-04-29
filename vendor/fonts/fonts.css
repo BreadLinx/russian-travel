@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    src: url(./Inter/Bold/Inter-Bold.woff) format("woff"),
+         url(./Inter/Bold/Inter-Bold.woff2) format("woff2");
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+@font-face {
     src: url(./Inter/Regular/Inter-Regular.woff) format("woff"),
          url(./Inter/Regular/Inter-Regular.woff2) format("woff2");
     font-family: "Inter";

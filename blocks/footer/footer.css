@@ -1,17 +1,30 @@
 .footer {
     font-family: "Inter", Arial, sans-serif;
     width: 92.5%;
-    margin: 0 auto;
+    margin: 0 auto 24px auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding-bottom: 24px;
   }
   
-  @media (max-width: 768px) {
-    .footer {
-      flex-flow: column nowrap;
-      justify-content: none;
-      gap: 48px;
-    }
+@media (max-width: 1024px) {
+  .footer {
+    width: 90.625%;
   }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 93.75%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+    width: 90%;
+  }
+}

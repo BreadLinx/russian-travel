@@ -7,10 +7,30 @@
     text-align: center;
   }
   
-  @media (max-width: 768px) {
-    .lead__subtitle {
-      font-size: 16px;
-      max-width: 288px;
-      line-height: 20px;
-    }
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
   }
+}
+
+@media (max-width: 700px) {
+  .lead__subtitle {
+    line-height: 24px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__subtitle {
+    line-height: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
