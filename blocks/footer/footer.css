@@ -24,8 +24,9 @@
 
 @media (max-width: 320px) {
   .footer {
-    flex-direction: column;
+    flex-flow: column nowrap;
     gap: 48px;
     width: 90%;
+    align-items: start;
   }
 }
